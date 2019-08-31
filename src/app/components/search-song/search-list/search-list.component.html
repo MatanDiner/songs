@@ -1,0 +1,7 @@
+<div id="search-list">
+    <ul id="search-list-ul">
+        <li *ngFor="let song of songs" class="search-list-li" (click)="onSongSelected($event)">
+              {{song.title}}
+        </li>
+    </ul>
+</div>

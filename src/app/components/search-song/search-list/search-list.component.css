@@ -1,0 +1,22 @@
+
+
+#search-list-ul{
+    list-style: none;
+    position: relative;
+    left: -40px
+}
+
+
+.search-list-li{
+
+    margin-top: 5px;
+    border: 1px solid brown;
+    color: brown;
+    background-color: burlywood;
+    cursor: pointer;
+}
+
+.search-list-li:hover{
+    color: red;
+    background-color:white ;
+}
