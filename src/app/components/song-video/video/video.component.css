@@ -1,0 +1,11 @@
+#iframe{
+    width: 500px;
+    height: 400px;
+}
+
+@media(max-width:500px){
+    #iframe{
+        width:350px;
+        height:400px;
+    }
+}
