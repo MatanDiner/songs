@@ -1,0 +1,18 @@
+#app-search-song{
+    position: relative;
+    top: 100px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 50px;
+}
+
+@media(max-width:500px){
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between
+    }
+}
