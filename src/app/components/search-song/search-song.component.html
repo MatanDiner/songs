@@ -1,0 +1,13 @@
+<div id="search-song">
+    <div>
+        <input type="text" placeholder="search song.." (keyup)="searchSong($event)" #searchInput/>
+    </div>
+    <div *ngIf="songs && songs.length > 0;else NotFound">
+        <app-search-list [songs]="songs"></app-search-list>
+    </div>
+    <ng-template #NotFound>
+        <div id="notFound">
+            Not Found
+        </div>
+    </ng-template>
+</div>
