@@ -1,0 +1,6 @@
+<div>
+    <div *ngFor="let quote of quotes,index as index" (click)="onSelectedQoute(index)" class="quote">
+         <div class="text">{{quote.text}}</div>
+         <div #offset>{{quote.offset | minuteSeconds}}</div>
+    </div>
+</div>
